@@ -1,0 +1,64 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: linear-gradient(135deg, gray, white);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.game{
+    text-align: center;
+    font-size: 3vw;
+    padding: 6px;
+    margin: 20px 190px;
+}
+.game .title{
+    background-color:red ;
+    font-weight: 600px;
+    font-size: 5vw;
+    color: white;
+    margin: 20px 200px;
+}
+.game .title span{
+    letter-spacing: 30px;
+    color: yellow;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0px 300px;
+}
+.boxes .item{
+    background-color: crimson;
+    height: auto; 
+    aspect-ratio: 1/1;
+    margin: 4px;
+    font-size: 8vw;    
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    flex: 1 1 calc(25.33% - 5px); /* 3 مربعات في كل صف */
+}
+.boxes .item:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+button{
+    padding: 10px 50px;
+    font-weight: 600;
+    background-color: crimson;
+    font-size: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+button:hover{
+    background-color:black;
+    color: white;
+}
+
