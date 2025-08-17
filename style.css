@@ -13,7 +13,7 @@ body{
     margin: 20px 190px;
 }
 .game .title{
-    background-color:red ;
+    background-color:blue ;
     font-weight: 600px;
     font-size: 5vw;
     color: white;
@@ -31,7 +31,7 @@ body{
     margin: 0px 300px;
 }
 .boxes .item{
-    background-color: crimson;
+    background-color: blue;
     height: auto; 
     aspect-ratio: 1/1;
     margin: 4px;
@@ -49,7 +49,7 @@ body{
 button{
     padding: 10px 50px;
     font-weight: 600;
-    background-color: crimson;
+    background-color: blue;
     font-size: 30px;
     color: #fff;
     border: none;
@@ -61,4 +61,5 @@ button:hover{
     background-color:black;
     color: white;
 }
+
 
