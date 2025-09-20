@@ -10,28 +10,47 @@ body{
     text-align: center;
     font-size: 3vw;
     padding: 6px;
-    margin: 20px 190px;
+    margin: 15px 200px;
 }
 .game .title{
     background-color:blue ;
     font-weight: 600px;
     font-size: 5vw;
     color: white;
-    margin: 20px 200px;
+    margin: 20px 120px;
+    border-radius: 10px;
+    position: relative;
 }
 .game .title span{
     letter-spacing: 30px;
     color: yellow;
 }
+.game .title .win {
+    position: absolute;
+}
+.game .title .win span {
+    color: yellow;
+    font-size: 3.9vw;
+   
+}
+.game .title .o {
+    right: 30px;
+    top: -10px;
+}
+.game .title .x {
+    left: 30px;
+    top: -10px;
+}
+/* boxes */
 .boxes{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr
+);
     flex-wrap: wrap;
     margin: 0px 300px;
 }
 .boxes .item{
-    background-color: blue;
+    background-color:blue;
     height: auto; 
     aspect-ratio: 1/1;
     margin: 4px;
@@ -39,10 +58,11 @@ body{
     color: white;
     font-weight: 700;
     text-align: center;
-    flex: 1 1 calc(25.33% - 5px); /* 3 مربعات في كل صف */
+    flex: 1 1 calc(25.33% - 5px); 
+    transition: 0.3s ease;
 }
 .boxes .item:hover{
-    background-color: black;
+    background-color:black;
     color: white;
     cursor: pointer;
 }
