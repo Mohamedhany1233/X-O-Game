@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="title">
+        <b class="x win">x : <span class="x-wins">0</span></b>
+        <strong class="title-name"><span>XO</span>GAME</strong>
+        <b class="o win"><span class="o-wins">0</span>: o</b>
+    </div>
+    <!-- the game -->
     <div class="game">
-        <div class="title">
-            <b class="x win">x : <span class="x-wins">0</span></b>
-            <strong class="title-name"><span>XO</span>GAME</strong>
-            <b class="o win"><span class="o-wins">0</span>: o</b>
-        </div>
             <div class="boxes">
                     <div id="item1" class="item" onclick="WriteTurn(this.id)"></div>
                     <div id="item2" class="item" onclick="WriteTurn(this.id)"></div>
