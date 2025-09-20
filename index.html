@@ -9,7 +9,9 @@
 <body>
     <div class="game">
         <div class="title">
+            <b class="x win">x : <span class="x-wins">0</span></b>
             <strong class="title-name"><span>XO</span>GAME</strong>
+            <b class="o win"><span class="o-wins">0</span>: o</b>
         </div>
             <div class="boxes">
                     <div id="item1" class="item" onclick="WriteTurn(this.id)"></div>
@@ -22,7 +24,7 @@
                     <div id="item8" class="item" onclick="WriteTurn(this.id)"></div>
                     <div id="item9" class="item" onclick="WriteTurn(this.id)"></div>
             </div>
-            <button id="btn">Reset</button>
+            <button id="btn">Reset All</button>
        </div>
     <script src="main.js"></script>
 </body>
