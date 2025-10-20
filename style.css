@@ -161,7 +161,6 @@ button:hover {
   }
 }
 
-/* 📱 التابلت والموبايلات الكبيرة */
 @media (max-width: 768px) {
   .game {
     width: 90%;
@@ -186,7 +185,6 @@ button:hover {
   }
 }
 
-/* 📱 الموبايلات المتوسطة */
 @media (max-width: 576px) {
   .game {
     width: 95%;
@@ -218,7 +216,6 @@ button:hover {
   }
 }
 
-/* 📱 الموبايلات الصغيرة جدًا */
 @media (max-width: 430px) {
   .game {
     width: 100%;
@@ -245,7 +242,6 @@ button:hover {
   }
 }
 
-/* 📱 الموبايلات الصغيرة جدًا جدًا (مثل iPhone SE) */
 @media (max-width: 360px) {
   .game {
     width: 95%;
@@ -269,3 +265,4 @@ button:hover {
     padding: 6px 18px;
   }
 }
+
